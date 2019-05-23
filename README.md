@@ -1,4 +1,4 @@
-zulu12-compat-srpm
+zulu-12-compat-srpm
 ===============================
 
 This is a plugin to allow the Zulu published 12.0.1 JDK to satisfy
