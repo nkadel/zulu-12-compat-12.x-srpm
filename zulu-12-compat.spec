@@ -2,7 +2,7 @@
 
 Summary: RPM plugin to allow zulu to replace openjdk
 Version: 12.2.3
-Name: zulu112-compat
+Name: zulu-12-compat
 Release: 0%{?dist}
 License: GPLv2 with exceptions
 Group: Development/Tools
@@ -14,6 +14,7 @@ BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 Requires: zulu-12 >= %{version}
+Provides: zulu12-compat = %{version}
 Provides: 1:java-headless = 1:%{version}
 Provides: 1:java-devel = 1:%{version}
 Conflicts: java*openjdk*
